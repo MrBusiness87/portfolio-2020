@@ -29,6 +29,7 @@ class PortfolioArea extends Component {
           <div className="portfolio">
             <h1>MAIN PORTFOLIO PAGE</h1>
           </div>
+          <Main />
       </div>
     )
   }

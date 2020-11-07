@@ -5,7 +5,7 @@ function Main() {
     <div>
       <link rel="icon" href="./assets/links/index.png" />
       <p>
-        WELCOME<br />TO MY<br />PORTFOLIO<br />
+        <h1>WELCOME<br />TO MY<br />PORTFOLIO</h1><br />
       </p>
       <div className="profile-img" />
     </div>
