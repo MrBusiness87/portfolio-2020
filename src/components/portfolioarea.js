@@ -2,44 +2,36 @@ import React, { Component, setState } from "react";
 import Nav, { PAGE_NAMES } from "./nav";
 import Main from "./pages/main";
 
-class Portfolio extends Component {
+class PortfolioArea extends Component {
   state={
     current: PAGE_NAMES.MAIN
   }  
-  componentDidMount() {
-    setState({current:page})
+  componentDidMount(page) {
+    this.setState({current:page})
   }
 
   render() {
     const {current:page} = this.state
     return (
-      <Root>
-        <Sidebar>
+      <div className="root">
+        <div className="sidebar">
           {page ? (
             page.map(page => (
-              <SidebarItem key={page.id}>
+              <div className="sidebaritem" key={page.id}>
                 {page.description || "[NONE]"}
-              </SidebarItem>
+              </div>
             ))
           ) : (
             <div>LOADING PAGE ... PLEASE BE PATIENT</div>
           )}
-        </Sidebar>
+        </div>
+          <Nav />
           <div className="portfolio">
             <h1>MAIN PORTFOLIO PAGE</h1>
           </div>
-      </Root>
+      </div>
     )
   }
 }
 
-export default Portfolio;
-  
-// tabs=()=> {
-//     switch(state.current) {
-//       case PAGE_NAMES.MAIN:
-//         return <Main />;
-//       default:
-//         return <Main />
-//     }
-//   }
+export default PortfolioArea;

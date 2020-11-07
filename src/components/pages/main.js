@@ -7,6 +7,9 @@ function Main() {
       <p>
         WELCOME<br />TO MY<br />PORTFOLIO<br />
       </p>
+      <div className="profile-img" />
     </div>
   )
 }
+
+export default Main;
