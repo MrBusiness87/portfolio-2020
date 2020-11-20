@@ -1,5 +1,6 @@
-import React, { Component, setState } from "react";
-import Nav, { PAGE_NAMES } from "./nav";
+import React, {Component, Root, Sidebar, SidebarItem, setState} from "react";
+import {BrowserRouter as Router} from "react-router-dom";
+import Nav, {PAGE_NAMES} from "./nav";
 import Main from "./pages/main";
 
 class PortfolioArea extends Component {
@@ -13,24 +14,30 @@ class PortfolioArea extends Component {
   render() {
     const {current:page} = this.state
     return (
-      <div className="root">
-        <div className="sidebar">
-          {page ? (
-            page.map(page => (
-              <div className="sidebaritem" key={page.id}>
-                {page.description || "[NONE]"}
+      <Router>
+        <Root>
+          <Sidebar>
+            {page ? (
+              page.map(page => (
+                <SidebarItem key={page.id}>
+                  {page.description || "[NONE]"}
+                </SidebarItem>
+              ))
+            ) : (
+              <div>
+                <h1>LOADING PAGE ...</h1>
+                <br />
+                <h1> PLEASE BE PATIENT</h1>
               </div>
-            ))
-          ) : (
-            <div>LOADING PAGE ... PLEASE BE PATIENT</div>
-          )}
+            )}
+          </Sidebar>
+        </Root>
+        <Nav />
+        <div className="portfolio">
+          <h1>MAIN PORTFOLIO PAGE</h1>
         </div>
-          <Nav />
-          <div className="portfolio">
-            <h1>MAIN PORTFOLIO PAGE</h1>
-          </div>
-          <Main />
-      </div>
+        <Main />
+      </Router>
     )
   }
 }
