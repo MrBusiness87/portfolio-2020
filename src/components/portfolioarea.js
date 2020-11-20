@@ -1,44 +1,47 @@
-import React, {Component, Root, Sidebar, SidebarItem, setState} from "react";
-import {BrowserRouter as Router} from "react-router-dom";
-import Nav, {PAGE_NAMES} from "./nav";
-import Main from "./pages/main";
+import React, { Component } from "react";
+import Nav, { PAGE_NAMES } from "./nav";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Portfolio from "./pages/portfolio";
+import Node from "./pages/node";
+import Footer from "./footer";
 
 class PortfolioArea extends Component {
-  state={
-    current: PAGE_NAMES.MAIN
-  }  
-  componentDidMount(page) {
-    this.setState({current:page})
+  state = {
+    currentPage: PAGE_NAMES.HOME
+  };
+
+  handlePageChange = page => {
+    this.setState({ currentPage: page });
+  };
+  
+  renderTabs = () => {
+    switch (this.state.currentPage) {
+      case PAGE_NAMES.HOME:
+        return <Home />;
+      case PAGE_NAMES.ABOUT:
+        return <About />;
+      case PAGE_NAMES.PORTFOLIO:
+        return <Portfolio />;
+        case PAGE_NAMES.NODE:
+          return <Node />;
+      default:
+        return <Home />
+    }
   }
 
   render() {
-    const {current:page} = this.state
     return (
-      <Router>
-        <Root>
-          <Sidebar>
-            {page ? (
-              page.map(page => (
-                <SidebarItem key={page.id}>
-                  {page.description || "[NONE]"}
-                </SidebarItem>
-              ))
-            ) : (
-              <div>
-                <h1>LOADING PAGE ...</h1>
-                <br />
-                <h1> PLEASE BE PATIENT</h1>
-              </div>
-            )}
-          </Sidebar>
-        </Root>
-        <Nav />
-        <div className="portfolio">
-          <h1>MAIN PORTFOLIO PAGE</h1>
-        </div>
-        <Main />
-      </Router>
-    )
+      <div>
+        <Nav
+          currentPage={this.state.currentPage}
+          handlePageChange={this.handlePageChange}
+        />
+        {this.renderTabs()}
+        <br />
+        <Footer />
+      </div>
+    );
   }
 }
 
