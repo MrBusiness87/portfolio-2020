@@ -1,12 +1,8 @@
-import './App.css';
+import React from "react";
 import PortfolioArea from "./components/portfolioarea";
 
 function App() {
-  return (
-    <div className="App">
-      <PortfolioArea />
-    </div>
-  );
+  return <PortfolioArea />;
 }
 
 export default App;

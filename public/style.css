@@ -1,0 +1,174 @@
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: lightgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+body {
+  width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(./blackpaper-hires.jpg);
+  color: white;
+}
+
+.line1,
+.line2 {
+  text-align: center;
+}
+
+.line1 {
+  font-size: 60px;
+  color: darkgreen;
+}
+
+.top {
+  position: static;
+  width: 220px;
+  border-radius: 1500px;
+  box-shadow: 0px 0px 30px 0px cyan;
+}
+
+.top:hover {
+  box-shadow: 0px 0px 80px 0px green;
+}
+
+/* .bottom {
+  display: visible;
+  position: static;
+  width: 225px;
+  border-radius: 1500px;
+  box-shadow: 0px 0px 80px 0px lightgreen;
+} */
+
+.line2 {
+  font-size: 40px;
+  color:green;
+}
+
+.info {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.infoStyle {
+  width: 330px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 0px cyan;
+}
+
+.catsStyle {
+  width: 250px;
+  float: right;
+  margin-right: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 0px cyan;
+  margin-top: -30px;
+  margin-right: 15%;
+}
+
+.achievement {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+}
+
+.navbar {
+  text-align: center;
+  margin: auto;
+  background: darkslateblue;
+  width: 80%;
+  border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px cyan;
+}
+
+.navbar img {
+  padding-top: 6px;
+  padding-left: 4px;
+}
+
+.column {
+  text-align: center;
+}
+
+.column img {
+  width: 300px;
+  height: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 0;
+  opacity: 25%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 0px cyan;
+}
+
+.column img:hover {
+  box-shadow: 0px 0px 100px 0px yellow;
+  opacity: 100%;
+}
+
+/* GLOWING BALL IN CENTER */
+.ball {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px cyan, inset 20px 0 80px blue,
+    inset -20px 0 80px green, inset 20px 0 300px blue, inset -20px 0 300px green,
+    0 0 50px cyan, -10px 0 80px blue, 10px 0 80px green;
+}
+
+.ball:hover {
+  box-shadow: inset 0 0 50px gray, inset 20px 0 80px green,
+    inset -20px 0 80px yellow, inset 20px 0 300px green,
+    inset -20px 0 300px yellow, 0 0 50px gray, -10px 0 80px green,
+    10px 0 80px yellow;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.footer {
+  text-align: center;
+  margin-left: 26%;
+  bottom: 0;
+  position: fixed;
+  background: darkslateblue;
+  width: 25%;
+  height: 4%;
+  border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px cyan;
+}
+
+.footer h2 {
+  margin-top: 0px;
+}

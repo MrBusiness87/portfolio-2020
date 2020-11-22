@@ -1,0 +1,117 @@
+@media (max-width: 500px) {
+  body {
+    width: 500px;
+    background-image: url(./darkblue-hires.jpg);
+  }
+    
+  .navbar {
+    text-align: center;
+    margin: auto;
+    background: darkslateblue;
+    width: 80%;
+    border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 0px cyan;
+  }
+  
+  .navbar img {
+    padding-top: 6px;
+    padding-left: 4px;
+  }
+  
+  .line1 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+  .top {
+    width: 190px;
+    box-shadow: 0px 0px 30px 0px greenyellow;
+  }
+  
+  .top:hover {
+    box-shadow: 0px 0px 60px 0px gold;
+  }
+
+  .line2 {
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
+  .info {
+    width: 400px;
+    font-size: 14px;
+  }
+
+  .infoStyle {
+    width: 150px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 25px 0px cyan;
+  }
+  
+  .achievement {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+  }
+  
+  .catsStyle {
+    width: 175px;
+    box-shadow: 0px 0px 25px 0px cyan;
+    margin-right: 0%;
+  }
+  
+  .column img {
+    width: 175px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    opacity: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px cyan;
+  }
+  
+  .column img:hover {
+    box-shadow: 0px 0px 100px 0px yellow;
+    opacity: 100%;
+  }
+  
+  /* GLOWING BALL IN CENTER */
+  .ball {
+    position: unset;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px cyan, inset 20px 0 80px blue,
+      inset -20px 0 80px gold, inset 20px 0 300px blue, inset -20px 0 300px gold,
+      0 0 50px cyan, -10px 0 80px blue, 10px 0 80px green;
+  }
+  
+  .ball:hover {
+    box-shadow: inset 0 0 50px gray, inset 20px 0 80px green,
+      inset -20px 0 80px orange, inset 20px 0 300px green,
+      inset -20px 0 300px orange, 0 0 50px gray, -10px 0 80px green,
+      10px 0 80px orange;
+  }
+  
+  .title {
+    margin-top: -20px;
+    font-size: 18px;
+  }
+
+  .footer {
+    margin-right: auto;
+    margin-left: 60px;
+    width: 75%;
+    height: 4%;
+    box-shadow: 0px 0px 30px 0px cyan;
+  }
+  
+  .footer h2 {
+    font-size: 18px;
+  }
+}

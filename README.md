@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## README created by: MrBusiness87
 
-## Available Scripts
+![](https://img.shields.io/badge/license-NONE-lightgrey)
+<br /><img src="./src/components/assets/application/HOME.png" style="width:50%" />
+<br />[VIDEO LINK](https://drive.google.com/file/d/1IgS0B0py4NMSIHGx30INQnDB-xnByCpf/view)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+# Table of Contents:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Title](#Title)
+- [Description](#Description)
+- [Links](#Links)
+- [License](#License)
+- [Questions](#Questions)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Title:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Portfolio the REACT version
 
-### `npm run build`
+## Description:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is my new and revised REACT portfolio. Created from scratch with no help of any CSS Framework. Hope you like it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Links:
 
-### `npm run eject`
+|                                                                                           |                                                                                       |                                                                                          |     |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --- |
+| <img src="./src/components/assets/thumbnails/LINKEDIN thumbnail.jpg" style="height:100px; width: 200px"> | <img src="./src/components/assets/thumbnails/QUIZ thumbnail.png" style="height:100px; width: 200px"> | <img src="./src/components/assets/thumbnails/WEATHER thumbnail.png" style="height:100px; width: 200px"> |
+| Deployed Link: [LINKED IN!](https://www.linkedin.com/in/BorjanBartula)                    | Deployed Link: [QUIZ GAME](https://mrbusiness87.github.io/QUIZ-GAME/)                 | Deployed Link: [WEATHER APP](https://mrbusiness87.github.io/WEATHER_thumbnail.png)       |
+|                                                                                           | Repository Link: [QUIZ GAME](https://github.com/MrBusiness87/QUIZ-GAME)               | Repository Link: [WEATHER APP](https://github.com/MrBusiness87/Weather-Forecaster)       |
+| <img src="./src/components/assets/thumbnails/WORKDAY thumbnail.png" style="height:100px; width: 200px">  | <img src="./src/components/assets/thumbnails/SF-thumbnail.jpg" style="height:100px; width: 200px">   | <img src="./src/components/assets/thumbnails/Project2.png" style="height:100px; width: 200px;">         |
+| Deployed Link: [SCHEDULER APP](https://mrbusiness87.github.io/Work-Day-Scheduler/)        | Deployed Link: [SPORTS FINDER](https://mrbusiness87.github.io/Finder-Project1/)       | Deployed Link: [YOUR KITCHEN](https://your-kitchen.herokuapp.com/)                       |
+| Repository Link: [SCHEDULER APP](https://github.com/MrBusiness87/Work-Day-Scheduler)      | Repository Link: [SPORTS FINDER](https://github.com/MrBusiness87/Finder-Project1)     | Repository Link: [YOUR KITCHEN](https://github.com/MrBusiness87/Your_Kitchen)            |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
+Click <a href="./src/components/assets/RESUME Coding.pdf" download>HERE</a> to Download My RESUME
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+License None: <br>When there is no license there is no copyright, except the one you create yourself.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Additional Notes:
 
-## Learn More
+Each project has a description in it's repository link for what was done on the project and which technologies are used.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Questions:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub Page: https://github.com/MrBusiness87
+- Please send an email to: bbartula87@gmail.com, with any Questions/Concerns/Comments!
