@@ -2,6 +2,7 @@ import React from "react";
 
 import profile from "../assets/profile.jpg";
 import cats from "../assets/candp.jpg";
+import resume from "./RESUME.pdf";
 
 function About() {
   const floatL = {
@@ -35,7 +36,8 @@ function About() {
         <li><a href="https://www.linkedin.com/in/borjanbartula" target="_blank" rel="noopener noreferrer">LINKEDIN PROFILE</a></li>
         <li>Email: bbartula87@gmail.com</li>
         <li>Phone#: (919) 332-4516</li>
-        <li><a href="./RESUME.pdf" target="_blank" download>CLICK HERE TO<br />DOWNLOAD RESUME
+        <li><a href={resume} download>
+          CLICK HERE TO<br />DOWNLOAD RESUME
         </a></li>
       </ul>
       <p className="cats"><img src={cats} className="catsStyle" alt="cats" /></p>
