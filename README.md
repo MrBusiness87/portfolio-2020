@@ -5,6 +5,7 @@
 ![](https://img.shields.io/badge/license-NONE-lightgrey)
 <br /><img src="./src/components/assets/application/HOME.png" style="width:50%" />
 <br />[VIDEO LINK](https://drive.google.com/file/d/1IgS0B0py4NMSIHGx30INQnDB-xnByCpf/view)
+<br />[PAGE LINK](https://portfolio-react-bb.herokuapp.com/#home)
 
 ---
 
