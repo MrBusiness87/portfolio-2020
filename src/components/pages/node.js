@@ -21,7 +21,7 @@ function Node() {
         <a href="https://github.com/MrBusiness87/Template-Engine/blob/master/README.md" target="_blank" rel="noreferrer">
           <img src={TEMPLATE} alt="TEMPLATE-ENGINE" />
         </a>
-        <a href="assets/thumbnails/SQL_Employee_Tracker_Aug 8, 2020 10_47 PM.webm" target="_blank" rel="noreferrer">
+        <a href="assets/thumbnails/SQL_Employee_Tracker.webm" target="_blank" rel="noreferrer">
           <img src={SQLTRACKER} alt="EMPLOYEE TRACKER" />
         </a>
     </div>
