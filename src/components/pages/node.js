@@ -1,9 +1,6 @@
 import React from "react";
 
-import READMEGEN from "../assets/thumbnails/node/READMEGEN thumbnail.png";
-import NOTE from "../assets/thumbnails/node/NOTE thumbnail.png";
-import TEMPLATE from "../assets/thumbnails/node/TEMPLATE thumbnail.png";
-import SQLTRACKER from "../assets/thumbnails/node/mysql.jpg";
+import {READMEGEN, NOTE, TEMPLATE, SQLTRACKER} from "./images.js";
 
 function Node() {
   return (
