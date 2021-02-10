@@ -1,6 +1,6 @@
 import React from "react";
 
-import {READMEGEN, NOTE, TEMPLATE, SQLTRACKER} from "./images.js";
+import {READMEGEN,NOTE,TEMPLATE,SQLTRACKER} from "./nodeimages.js";
 
 function Node() {
   return (
